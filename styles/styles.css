@@ -1,0 +1,112 @@
+body {
+  font-family: "Manrope";
+}
+h1 {
+  /* border: 1px solid red; */
+  width: 956px;
+  height: 120px;
+
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+h2 {
+  /* border: 1px solid red; */
+  width: 1150px;
+
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+  margin-top: 151px;
+}
+
+img {
+  width: 150px;
+}
+
+.headline {
+  margin: 0 auto;
+  width: 1150px;
+  margin-bottom: 100px;
+}
+
+.block_modernInteriors {
+  margin: 0 auto;
+  width: 1150px;
+  height: 120px;
+}
+
+.block_picture {
+  margin: 0 auto;
+  width: 1150px;
+  height: 500px;
+
+  background-image: url(../resourses/background_img1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  margin-top: 30px;
+}
+
+p.weAre {
+  width: 430px;
+  height: 81px;
+
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 27px;
+  color: rgb(219, 219, 219);
+  font-weight: 400;
+
+  text-align: left;
+
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 379px;
+}
+
+.block_aboutUs {
+  margin: 0 auto;
+  width: 1150px;
+}
+p.aboutStudio {
+  margin: 0 auto;
+  width: 1150px;
+
+  font-size: 45px;
+  line-height: 61px;
+  font-weight: 400;
+  text-align: left;
+
+  margin-top: 30px;
+}
+
+.btn {
+  display: block;
+  width: 255px;
+  height: 67px;
+
+  font-size: 20px;
+  border: 1px solid rgb(112, 19, 19);
+  background-color: rgb(173, 24, 24);
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-color: rgb(210, 30, 30);
+}
