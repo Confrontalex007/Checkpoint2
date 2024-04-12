@@ -1,21 +1,31 @@
 body {
   font-family: "Manrope";
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03cm;
 }
 h1 {
-  /* border: 1px solid red; */
   width: 956px;
   height: 120px;
 
+  box-sizing: border-box;
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
-  letter-spacing: -0.03em;
   text-align: left;
-  box-sizing: border-box;
 }
-
+.white {
+  margin-top: 0;
+  color: #ffffff;
+}
 h2 {
-  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 151px;
   width: 1150px;
 
   font-size: 18px;
@@ -25,8 +35,6 @@ h2 {
   text-align: left;
   text-transform: uppercase;
   box-sizing: border-box;
-
-  margin-top: 151px;
 }
 
 img {
@@ -35,8 +43,8 @@ img {
 
 .headline {
   margin: 0 auto;
-  width: 1150px;
   margin-bottom: 100px;
+  width: 1150px;
 }
 
 .block_modernInteriors {
@@ -46,36 +54,34 @@ img {
 }
 
 .block_picture {
+  position: relative;
   margin: 0 auto;
+  margin-top: 30px;
   width: 1150px;
   height: 500px;
 
-  background-image: url(../resourses/background_img1.png);
+  background-image: url(../resourses/interior_1.png);
   background-size: contain;
   background-repeat: no-repeat;
-
-  margin-top: 30px;
 }
 
 p.weAre {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
   width: 430px;
-  height: 81px;
 
   font-size: 20px;
   letter-spacing: -0.03em;
   line-height: 27px;
-  color: rgb(219, 219, 219);
   font-weight: 400;
-
   text-align: left;
-
-  padding-left: 40px;
-  padding-bottom: 40px;
-  padding-top: 379px;
+  color: rgb(219, 219, 219);
 }
 
 .block_aboutUs {
   margin: 0 auto;
+  margin-top: 30px;
   width: 1150px;
 }
 p.aboutStudio {
@@ -86,27 +92,143 @@ p.aboutStudio {
   line-height: 61px;
   font-weight: 400;
   text-align: left;
-
-  margin-top: 30px;
 }
 
 .btn {
-  display: block;
+  margin-top: 30px;
   width: 255px;
   height: 67px;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
 
   font-size: 20px;
-  border: 1px solid rgb(112, 19, 19);
-  background-color: rgb(173, 24, 24);
   text-align: center;
   line-height: 67px;
   text-decoration: none;
   color: white;
-  border-radius: 5px;
-
-  margin-top: 30px;
+  background-color: #ff1e1e;
 }
 
 .btn:hover {
   background-color: rgb(210, 30, 30);
+}
+.section {
+  width: 1150px;
+  margin: 0 auto;
+}
+.block_projects {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.project {
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.project__img {
+  margin: 0 auto;
+  width: 1150px;
+  height: 450px;
+}
+
+.project__title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 41px;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.project__link {
+  margin: 0 auto;
+  padding: 0;
+  width: 128px;
+  height: 27px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Manrope";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-decoration: none;
+  background: none;
+  color: #ad1818;
+}
+.project__link:hover {
+  color: #eb1f1f;
+}
+
+.lookAll {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.lookAll-btn {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 153px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: "Manrope";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ad1818;
+  background-color: #ffffff;
+  border: 1px solid #ad1818;
+}
+
+.lookAll-btn:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.section-black {
+  margin-top: 150px;
+  padding-top: 151px;
+  padding-bottom: 90px;
+  background-color: #121212;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.services_img {
+  margin: 0 auto;
+  width: 1150px;
+}
+.services_price {
+  width: 1150px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 60px;
+
+  font-family: "Manrope";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.section:nth-last-child(1) {
+  margin-bottom: 0px;
 }
