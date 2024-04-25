@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Manrope";
   margin: 0;
@@ -6,7 +9,7 @@ body {
 h1,
 h2,
 h3 {
-  letter-spacing: -0.03cm;
+  letter-spacing: -0.03em;
 }
 h1 {
   width: 956px;
@@ -20,6 +23,8 @@ h1 {
 }
 .white {
   margin-top: 0;
+  margin-bottom: 35px;
+  padding-left: 2px;
   color: #ffffff;
 }
 h2 {
@@ -81,21 +86,23 @@ p.weAre {
 
 .block_aboutUs {
   margin: 0 auto;
+  width: 1150px;
   margin-top: 30px;
-  width: 1150px;
 }
+
 p.aboutStudio {
-  margin: 0 auto;
-  width: 1150px;
+  width: 1051px;
 
   font-size: 45px;
-  line-height: 61px;
+  line-height: 61.47px;
   font-weight: 400;
   text-align: left;
+  /* letter-spacing: -0.03em; */
+  letter-spacing: -3%;
 }
 
 .btn {
-  margin-top: 30px;
+  margin-top: 26px;
   width: 255px;
   height: 67px;
   display: block;
@@ -104,14 +111,17 @@ p.aboutStudio {
 
   font-size: 20px;
   text-align: center;
+  font-weight: 400;
+  /* line-height: 27.32px; */
   line-height: 67px;
   text-decoration: none;
+  letter-spacing: -0.03em;
   color: white;
-  background-color: #ff1e1e;
+  background-color: rgba(173, 24, 24, 1);
 }
 
 .btn:hover {
-  background-color: rgb(210, 30, 30);
+  background-color: rgb(255, 90, 90);
 }
 .section {
   width: 1150px;
@@ -124,7 +134,7 @@ p.aboutStudio {
 
 .project {
   margin: 0 auto;
-  margin-bottom: 90px;
+  margin-bottom: 89.5px;
 }
 .project__img {
   margin: 0 auto;
@@ -161,10 +171,10 @@ p.aboutStudio {
   text-align: left;
   text-decoration: none;
   background: none;
-  color: #ad1818;
+  color: rgba(173, 24, 24, 1);
 }
 .project__link:hover {
-  color: #eb1f1f;
+  color: rgb(255, 90, 90);
 }
 
 .lookAll {
@@ -188,9 +198,9 @@ p.aboutStudio {
   line-height: 40.98px;
   letter-spacing: -0.03em;
   text-align: center;
-  color: #ad1818;
+  color: rgba(173, 24, 24, 1);
   background-color: #ffffff;
-  border: 1px solid #ad1818;
+  border: 1px solid rgba(173, 24, 24, 1);
 }
 
 .lookAll-btn:hover {
@@ -200,7 +210,7 @@ p.aboutStudio {
 
 .section-black {
   margin-top: 150px;
-  padding-top: 151px;
+  padding-top: 150px;
   padding-bottom: 90px;
   background-color: #121212;
 }
@@ -215,10 +225,11 @@ p.aboutStudio {
   width: 1150px;
 }
 .services_price {
-  width: 1150px;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 60px;
+  padding-left: 3px;
+  width: 1150px;
 
   font-family: "Manrope";
   font-size: 30px;
@@ -231,4 +242,140 @@ p.aboutStudio {
 
 .section:nth-last-child(1) {
   margin-bottom: 0px;
+}
+
+.nav-section {
+  min-width: 1150px;
+  margin-bottom: 37px;
+}
+.nav-container {
+  width: 1150px;
+  margin: 0 auto;
+
+  padding-top: 32.82px;
+  padding-bottom: 33px;
+}
+.logo-link {
+  display: inline-block;
+  margin-right: 98px;
+  vertical-align: middle;
+  margin-right: 487px;
+}
+.logo {
+  display: block;
+  width: 126.89px;
+  /* height: 21.42px; */
+}
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__link {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 60px;
+
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+
+  font-size: 18px;
+  font-weight: 400;
+
+  color: rgba(18, 18, 18, 1);
+}
+
+.nav__link:hover,
+.nav__link_active {
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.example {
+  margin: 0 auto;
+  height: 717px;
+  /* width: 1400px; */
+  width: 100%;
+  background-image: url("/resourses/example-interior.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 80%;
+}
+
+.example-text {
+  height: 100%;
+  position: relative;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.example-paragraph {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+  height: 82px;
+  font-family: "Manrope";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.contacts-block {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contacts {
+  width: 1150px;
+  margin: 0 auto;
+}
+.contacts-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 37px;
+  width: 13px;
+  height: 22px;
+  background-image: url("/resourses/svg_phone.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #121212;
+}
+
+.phone_block {
+  margin-bottom: 30px;
+}
+.phone_number {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(18, 18, 18, 1);
+}
+
+.phone_number:hover {
+  opacity: 50%;
+}
+
+.email {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(18, 18, 18, 1);
+  opacity: 50%;
+}
+
+.email:hover {
+  opacity: 30%;
 }
