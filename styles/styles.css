@@ -298,7 +298,7 @@ p.aboutStudio {
   height: 717px;
   /* width: 1400px; */
   width: 100%;
-  background-image: url("/resourses/example-interior.png");
+  background-image: url("../resourses/example-interior.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 80%;
@@ -342,7 +342,7 @@ p.aboutStudio {
   bottom: 37px;
   width: 13px;
   height: 22px;
-  background-image: url("/resourses/svg_phone.svg");
+  background-image: url("../resourses/svg_phone.svg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #121212;
