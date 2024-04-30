@@ -6,6 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.page {
+  max-width: 1180px;
+  padding: 0 15;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3 {
@@ -19,9 +25,8 @@ h1 {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
-  text-align: left;
 }
-.white {
+.black__title-white {
   margin-top: 0;
   margin-bottom: 35px;
   padding-left: 2px;
@@ -52,13 +57,7 @@ img {
   width: 1150px;
 }
 
-.block_modernInteriors {
-  margin: 0 auto;
-  width: 1150px;
-  height: 120px;
-}
-
-.block_picture {
+.intro__pic {
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
@@ -69,8 +68,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-p.weAre {
+.intro__text {
   position: absolute;
   bottom: 40px;
   left: 40px;
@@ -84,24 +82,22 @@ p.weAre {
   color: rgb(219, 219, 219);
 }
 
-.block_aboutUs {
-  margin: 0 auto;
+.about__title {
   width: 1150px;
   margin-top: 30px;
 }
 
-p.aboutStudio {
+p.about__text {
   width: 1051px;
 
   font-size: 45px;
   line-height: 61.47px;
   font-weight: 400;
   text-align: left;
-  /* letter-spacing: -0.03em; */
-  letter-spacing: -3%;
+  letter-spacing: -0.03em;
 }
 
-.btn {
+.about__btn {
   margin-top: 26px;
   width: 255px;
   height: 67px;
@@ -120,7 +116,7 @@ p.aboutStudio {
   background-color: rgba(173, 24, 24, 1);
 }
 
-.btn:hover {
+.about__btn:hover {
   background-color: rgb(255, 90, 90);
 }
 .section {
@@ -208,7 +204,7 @@ p.aboutStudio {
   color: #ffffff;
 }
 
-.section-black {
+.black {
   margin-top: 150px;
   padding-top: 150px;
   padding-bottom: 90px;
@@ -220,7 +216,7 @@ p.aboutStudio {
   width: 1150px;
 }
 
-.services_img {
+.black__img {
   margin: 0 auto;
   width: 1150px;
 }
@@ -298,20 +294,20 @@ p.aboutStudio {
   height: 717px;
   /* width: 1400px; */
   width: 100%;
-  background-image: url("../resourses/example-interior.png");
+  background-image: url("/resourses/example-interior.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 80%;
 }
 
-.example-text {
+.example__description {
   height: 100%;
   position: relative;
   width: 1150px;
   margin: 0 auto;
 }
 
-.example-paragraph {
+.example__text {
   position: absolute;
   bottom: 60px;
   width: 443px;
@@ -325,33 +321,31 @@ p.aboutStudio {
   color: rgba(255, 255, 255, 1);
 }
 
-.contacts-block {
-  width: 1150px;
-  margin: 0 auto;
+.contacts__title {
   position: relative;
 }
 
-.contacts {
-  width: 1150px;
-  margin: 0 auto;
+.contacts_list {
+  margin-bottom: 200px;
 }
-.contacts-block::before {
+
+.contacts__title::before {
   content: "";
   display: block;
   position: absolute;
-  bottom: 37px;
+  bottom: 35px;
   width: 13px;
   height: 22px;
-  background-image: url("../resourses/svg_phone.svg");
+  background-image: url("/resourses/svg_phone.svg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #121212;
 }
 
-.phone_block {
+.contacts_data {
   margin-bottom: 30px;
 }
-.phone_number {
+.contacts_number {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
@@ -361,11 +355,11 @@ p.aboutStudio {
   color: rgba(18, 18, 18, 1);
 }
 
-.phone_number:hover {
+.contacts_number:hover {
   opacity: 50%;
 }
 
-.email {
+.contacts_email {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
@@ -376,6 +370,6 @@ p.aboutStudio {
   opacity: 50%;
 }
 
-.email:hover {
+.contacts_email:hover {
   opacity: 30%;
 }
