@@ -13,7 +13,7 @@
   position: absolute;
   bottom: 38px;
   width: 13px;
-  background-image: url("/resourses/svg_phone.svg");
+  background-image: url("../resourses/svg_phone.svg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #121212;
