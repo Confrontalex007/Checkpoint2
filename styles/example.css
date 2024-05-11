@@ -1,7 +1,7 @@
 .example {
   height: 717px;
   width: 100%;
-  background-image: url("/resourses/example-interior.png");
+  background-image: url("../resourses/example-interior.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 80%;
