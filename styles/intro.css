@@ -1,0 +1,27 @@
+.intro {
+  margin-bottom: 150px;
+}
+.intro__pic {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+  width: 1150px;
+  height: 500px;
+
+  background-image: url(../resourses/interior_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro__text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 430px;
+
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: left;
+  color: rgb(219, 219, 219);
+}

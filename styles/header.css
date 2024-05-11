@@ -1,0 +1,60 @@
+.logo__link {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  display: block;
+  width: 126.89px;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__list {
+  display: flex;
+  gap: 60px;
+}
+
+.header__inner {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 34px 0 70px 0;
+}
+
+.nav-section {
+  min-width: 1150px;
+  margin-bottom: 37px;
+}
+
+.nav-container {
+  width: 1150px;
+  margin: 0 auto;
+
+  padding-top: 32.82px;
+  padding-bottom: 33px;
+}
+
+.nav__link {
+  display: inline-block;
+  text-decoration: none;
+
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+
+  font-size: 18px;
+  font-weight: 400;
+
+  color: rgba(18, 18, 18, 1);
+}
+
+.nav__link:hover,
+.nav__link_active {
+  text-decoration: underline;
+  opacity: 50%;
+}
