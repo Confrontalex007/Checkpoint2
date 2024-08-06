@@ -2,18 +2,17 @@
   margin-bottom: 150px;
 }
 .about__title {
-  width: 1150px;
-  margin-top: 30px;
+  max-width: 1150px;
 }
 
-p.about__text {
-  width: 1051px;
-
+.about__text {
+  max-width: 1048px;
   font-size: 45px;
   line-height: 61.47px;
   font-weight: 400;
   text-align: left;
   letter-spacing: -0.03em;
+  padding-left: 3px;
 }
 
 .about__btn {
@@ -25,9 +24,9 @@ p.about__text {
   cursor: pointer;
 
   font-size: 20px;
+  line-height: 67px;
   text-align: center;
   font-weight: 400;
-  line-height: 67px;
   text-decoration: none;
   letter-spacing: -0.03em;
   color: white;
@@ -36,4 +35,49 @@ p.about__text {
 
 .about__btn:hover {
   background-color: rgb(255, 90, 90);
+}
+
+@media (max-width: 960px) {
+  .about {
+    margin-bottom: 120px;
+  }
+  .about__title {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+  .about__text {
+    max-width: 693px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .about__btn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about__title {
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19.12px;
+  }
+  .about__text {
+    max-width: 340px;
+    font-size: 22px;
+    line-height: 30.05px;
+    padding-left: 0px;
+  }
+  .about__btn {
+    width: 194px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: center;
+  }
 }
